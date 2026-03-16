@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portafolio Profesional</title>
+<title>Portafolio | Johan Bello</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>Mi Portafolio</h1>
-<p>Desarrollador Web</p>
+<h1>Johan Bello</h1>
+<p>Estudiante de Desarrollo Web</p>
 </header>
 
 <nav>
 <a href="#sobre">Sobre mí</a>
+<a href="#habilidades">Habilidades</a>
 <a href="#proyectos">Proyectos</a>
 <a href="#contacto">Contacto</a>
 </nav>
 
-<section id="sobre">
+<section id="sobre" class="container">
+<img src="https://i.pravatar.cc/200" class="perfil">
+
 <h2>Sobre mí</h2>
-<p>Soy Johan Bello, estudiante de desarrollo web apasionado por crear páginas modernas.</p>
+
+<p>
+Soy estudiante de desarrollo web apasionado por la tecnología,
+la programación y la creación de páginas modernas.
+</p>
+
 </section>
-<section id="proyectos">
+
+<section id="habilidades" class="container">
+
+<h2>Habilidades</h2>
+
+<div class="skills">
+
+<div class="skill">
+<p>HTML</p>
+<div class="barra"><div style="width:90%"></div></div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="barra"><div style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="barra"><div style="width:60%"></div></div>
+</div>
+
+</div>
+
+</section>
+
+<section id="proyectos" class="container">
 
 <h2>Proyectos</h2>
 
-<div class="contenedor">
+<div class="cards">
 
 <div class="card">
 <h3>Landing Page</h3>
@@ -37,34 +70,34 @@
 </div>
 
 <div class="card">
-<h3>App React</h3>
-<p>Aplicación creada con React.</p>
+<h3>Portafolio Web</h3>
+<p>Página personal para mostrar proyectos.</p>
 </div>
 
 <div class="card">
-<h3>Sitio Web</h3>
-<p>Página corporativa.</p>
+<h3>Proyecto React</h3>
+<p>Aplicación web desarrollada con React.</p>
 </div>
 
 </div>
 
 </section>
 
-<section id="contacto">
+<section id="contacto" class="container">
+
 <h2>Contacto</h2>
+
 <p>Email: 1000461650@teinco.edu.co</p>
 
-<p>
-<a href="https://github.com/johan2156">Mi GitHub</a>
-</p>
-<button onclick="saludo()">Enviar saludo</button>
+<a class="btn" href="https://github.com/johan2156">Mi GitHub</a>
+
 </section>
 
 <footer>
-<p>© 2026 Mi Portafolio</p>
-</footer>
 
-<script src="script.js"></script>
+<p>© 2026 Johan Bello | Portafolio</p>
+
+</footer>
 
 </body>
 </html>
